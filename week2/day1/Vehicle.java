@@ -1,7 +1,8 @@
 package week2.day1;
 
-public class Vehicle {
+public class Vehicle extends Commute{
 public void acclerate(){
+	System.out.println(carName);
 	System.out.println("Speed up the vehicle");
 }
 public void applyBrake() {
